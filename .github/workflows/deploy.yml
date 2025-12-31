@@ -33,8 +33,6 @@ jobs:
 
       - name: Build Next.js app
         run: npm run export
-        env:
-          GITHUB_PAGES: true
 
       - name: Add .nojekyll file
         run: touch out/.nojekyll

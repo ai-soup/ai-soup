@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "export": "GITHUB_PAGES=true next build"
+    "export": "next build"
   },
   "dependencies": {
     "next": "16.1.1",
